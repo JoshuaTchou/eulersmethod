@@ -13,5 +13,5 @@ The Problem class defines 2 methods.
 solveEuler(t0,tf,y0,timestep): double[]
 Returns a double[2] with the contents [tf,yf] and prints tf and yf to console.
 
-solveEulerVerbose(t0,tf,y0,timestep): double[]
+solveEulerVerbose(t0,tf,y0,timestep): double[][]
 Returns a double[n][2] where n is the number of timesteps used (includes t=t0), and where the value at [n][0] is t at the nth timestep, and the value at [n][1] is the y at the nth timestep. Prints t and y to console at every timestep.
